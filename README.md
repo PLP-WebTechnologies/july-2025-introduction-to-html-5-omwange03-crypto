@@ -1,34 +1,94 @@
-# 📘 Assignment: HTML5 + Accessibility & SEO Basics
+<!DOCTYPE html>
+<html lang="en">
 
-## Overview
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Lucas Omwange – a law student passionate about technology, justice, and corporate law.">
+  <title>Lucas Omwange | Personal Portfolio</title>
+</head>
 
-This assignment will help you solidify your understanding of modern HTML5 structure while applying foundational concepts of web accessibility and search engine optimization (SEO). You’ll create a simple, semantically correct web page that prioritizes both human and machine readability—two pillars of great web design.
+<body>
+  <!-- HEADER SECTION -->
+  <header>
+    <h1>Lucas Omwange</h1>
+    <p>Law Student | Aspiring In-House Counsel | Tech & Justice Enthusiast</p>
 
-## Objective
+    <!-- NAVIGATION -->
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-Build a basic web page using HTML5 semantic tags, applying accessibility best practices and beginner-friendly SEO principles. Your final output should demonstrate a well-structured layout that supports screen readers and is optimized for discoverability.
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I’m <strong>Lucas Omwange</strong>, a law student at the <em>University of Nairobi</em>.
+      My interests lie in <strong>corporate law</strong>, <strong>technology policy</strong>, and <strong>access to justice</strong>.
+      I believe that law and innovation should work together to empower societies and protect human dignity.</p>
 
-## Guidelines
+      <figure>
+        <img src="Static/images/RAF%201.jpg" alt="Portrait of Lucas Omwange"width="200"height="200">
+        <figcaption>Lucas Omwange – Exploring legal innovation through technology.</figcaption>
+      </figure>
+    </section>
 
-Use only HTML5. No CSS or JavaScript is required at this stage. Focus on using meaningful semantic elements to structure your page. Avoid using `<div>` or `<span>` unless absolutely necessary. Ensure your page has clearly defined sections such as a header, navigation, main content, and a footer.
+    <!-- EDUCATION SECTION -->
+    <section id="education">
+      <h2>Education</h2>
+      <article>
+        <h3>University of Nairobi</h3>
+        <p><time datetime="2022">2022</time> – Present</p>
+        <p><strong>Bachelor of Laws (LL.B)</strong></p>
+        <p>Focused on corporate law, legal technology, and human rights protection in Africa.</p>
+      </article>
+    </section>
 
-Incorporate accessibility by using proper HTML5 landmarks and attributes that improve navigation for assistive technologies. Your HTML should reflect thoughtful planning of hierarchy and readability, both for users and search engines.
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+      <h2>Projects & Writing</h2>
 
-For SEO, emphasize the use of heading tags in the correct order, provide descriptive text, and ensure your content is both human-readable and crawler-friendly. Consider how a search engine would interpret your page in terms of structure and content clarity.
+      <article>
+        <h3>Democracy Deferred: Voices from the Ground</h3>
+        <p>An investigative piece exploring democratic regression and civic suppression in East Africa, emphasizing legal accountability and reform.</p>
+      </article>
 
-## Deliverables
+      <article>
+        <h3>Agency Law in Kenya</h3>
+        <p>A comprehensive 7,000-word essay analyzing principles of agency law and its significance in commercial transactions in Kenya.</p>
+      </article>
 
-A single HTML file named `index.html`. It should include:
+      <article>
+        <h3>Investigate Then Arrest? A Legal Dilemma</h3>
+        <p>A research paper examining due process in Kenya’s criminal justice system, focusing on balancing rights and enforcement efficiency.</p>
+      </article>
+    </section>
 
-* A semantic structure using appropriate HTML5 elements.
-* Clear headings in a logical hierarchy.
-* Accessibility enhancements using proper tags and attributes.
-* SEO-friendly metadata and content.
+    <!-- ASIDE SECTION -->
+    <aside>
+      <h2>Highlights</h2>
+      <ul>
+        <li>Interned at a commercial bank – gained exposure to compliance and financial law.</li>
+        <li>Active member of the University Law Students’ Association.</li>
+        <li>Published writer on democracy, governance, and justice in Africa.</li>
+      </ul>
+    </aside>
+  </main>
 
-## Tips
+  <!-- FOOTER SECTION -->
+  <footer id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:omwangelucas@gmail.com">omwangelucas@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com" target="_blank" rel="noopener">linkedin.com/in/lucas-omwange</a></p>
+    <p>© 2025 Lucas Omwange. All rights reserved.</p>
+  </footer>
+</body>
 
-* Use HTML5 semantic tags appropriately.
-* Organize content with accessibility in mind.
-* Apply basic on-page SEO techniques.
-* Follow clean, readable HTML code structure.
-
+</html>
